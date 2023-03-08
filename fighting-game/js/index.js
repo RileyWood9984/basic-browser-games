@@ -63,7 +63,7 @@ const keys = {
     d: {
         pressed: false
     },
-    space: {
+    w: {
         pressed: false
     }
 }
@@ -98,7 +98,7 @@ window.addEventListener('keydown', (event) => {
             keys.a.pressed = true
             lastKey = 'a'
             break
-        case ' ':
+        case 'w':
             player.velocity.y = -10
             break
     }
@@ -112,8 +112,8 @@ window.addEventListener('keyup', (event) => {
         case 'a':
             keys.a.pressed = false
             break
-        case ' ':
-            keys.space.pressed = false
+        case 'w':
+            keys.w.pressed = false
             break
 
     }
