@@ -16,9 +16,9 @@ class Sprite {
         this.width = 50
         this.lastKey;
         this.attackBox = {
-            position:{
-                x : this.position.x,
-                y : this.position.y
+            position: {
+                x: this.position.x,
+                y: this.position.y
             },
             offset,
             width: 100,
@@ -26,6 +26,7 @@ class Sprite {
         }
         this.color = color
         this.isAttacking
+        this.health = 100
     }
 
     draw() {
@@ -44,8 +45,8 @@ class Sprite {
 
     update() {
         this.draw()
-        this.attackBox.position.x =this.position.x + this.attackBox.offset.x
-        this.attackBox.position.y =this.position.y
+        this.attackBox.position.x = this.position.x + this.attackBox.offset.x
+        this.attackBox.position.y = this.position.y
 
         this.position.x += this.velocity.x
         this.position.y += this.velocity.y
@@ -75,9 +76,9 @@ const player = new Sprite({
         x: 0,
         y: 0
     },
-    offset:{
-        x:0,
-        y:0
+    offset: {
+        x: 0,
+        y: 0
     }
 })
 
@@ -91,9 +92,9 @@ const enemy = new Sprite({
         y: 0
     },
     color: 'blue',
-    offset:{
-        x:-50,
-        y:0
+    offset: {
+        x: -50,
+        y: 0
     }
 })
 
@@ -112,8 +113,8 @@ const keys = {
     }
 }
 
-function rectangularCollision({ rectangle1, rectangle2}){
-    return(
+function rectangularCollision({rectangle1, rectangle2}) {
+    return (
         rectangle1.attackBox.position.x + rectangle1.attackBox.width >= rectangle2.position.x &&
         rectangle1.attackBox.position.x <= rectangle2.position.x + rectangle2.width &&
         rectangle1.attackBox.position.y + rectangle1.attackBox.height >= rectangle2.position.y &&
@@ -145,21 +146,23 @@ function animate() {
 
     if (
         rectangularCollision({
-            rectangle1:player,
-            rectangle2:enemy
-        })&&player.isAttacking
+            rectangle1: player,
+            rectangle2: enemy
+        }) && player.isAttacking
     ) {
         player.isAttacking = false
-        console.log("hit");
+        enemy.health -= 10
+        document.querySelector("#enemyHealth").style.width = enemy.health + '%'
     }
     if (
         rectangularCollision({
-            rectangle1:enemy,
-            rectangle2:player
-        })&&enemy.isAttacking
+            rectangle1: enemy,
+            rectangle2: player
+        }) && enemy.isAttacking
     ) {
         enemy.isAttacking = false
-        console.log("tih");
+        player.health -= 10
+        document.querySelector("#playerHealth").style.width = player.health + '%'
     }
 }
 

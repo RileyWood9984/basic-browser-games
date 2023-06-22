@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86f361da-eb41-4fc3-be83-ec6ac8acc9a6" name="Default Changelist" comment="look working">
+    <list default="true" id="86f361da-eb41-4fc3-be83-ec6ac8acc9a6" name="Default Changelist" comment="attacks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fighting-game/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/fighting-game/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fighting-game/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fighting-game/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fighting-game/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fighting-game/js/index.js" afterDir="false" />
     </list>
@@ -16,6 +17,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MjiqEbuadVjubptoApfdcQNCj7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -68,7 +72,7 @@
       <workItem from="1678287588693" duration="1013000" />
       <workItem from="1687285417566" duration="1314000" />
       <workItem from="1687316489922" duration="454000" />
-      <workItem from="1687363741999" duration="5748000" />
+      <workItem from="1687363741999" duration="9821000" />
     </task>
     <task id="LOCAL-00001" summary="look working">
       <option name="closed" value="true" />
@@ -78,7 +82,15 @@
       <option name="project" value="LOCAL" />
       <updated>1687316412459</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="attacks">
+      <option name="closed" value="true" />
+      <created>1687403632750</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687403632750</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +109,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="look working" />
-    <option name="LAST_COMMIT_MESSAGE" value="look working" />
+    <MESSAGE value="attacks" />
+    <option name="LAST_COMMIT_MESSAGE" value="attacks" />
   </component>
 </project>

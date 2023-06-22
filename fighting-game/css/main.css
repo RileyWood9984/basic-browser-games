@@ -1,3 +1,55 @@
-h1 {
-    color: red;
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+}
+
+.top-ui {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+#playerHealth {
+    position: absolute;
+    background-color: green;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%
+}
+
+.hBackground {
+    background-color: yellow;
+    height: 30px;
+    width: 100%;
+}
+
+.timer {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    flex-shrink: 0;
+}
+
+.hContainer {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#enemyHealth {
+    position: absolute;
+    background-color: green;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
