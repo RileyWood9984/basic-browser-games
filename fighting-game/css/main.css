@@ -1,6 +1,17 @@
 * {
     box-sizing: border-box;
 }
+#outcome{
+    position: absolute;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+#outcomeText{
+}
 
 .container {
     position: relative;
@@ -30,11 +41,14 @@
     width: 100%;
 }
 
-.timer {
+#timer {
     background-color: aqua;
     height: 100px;
     width: 100px;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hContainer {
