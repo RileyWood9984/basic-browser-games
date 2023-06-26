@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86f361da-eb41-4fc3-be83-ec6ac8acc9a6" name="Default Changelist" comment="attacks">
-      <change afterPath="$PROJECT_DIR$/fighting-game/assets/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fighting-game/assets/shop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fighting-game/js/classes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fighting-game/js/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fighting-game/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/fighting-game/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fighting-game/js/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/fighting-game/js/classes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fighting-game/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fighting-game/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +83,7 @@
       <workItem from="1678287588693" duration="1013000" />
       <workItem from="1687285417566" duration="1314000" />
       <workItem from="1687316489922" duration="454000" />
-      <workItem from="1687363741999" duration="23108000" />
+      <workItem from="1687363741999" duration="32020000" />
     </task>
     <task id="LOCAL-00001" summary="look working">
       <option name="closed" value="true" />
