@@ -93,14 +93,16 @@ class Fighter extends Sprite {
 
         }
     }
-
+ let fe = []
 
     update() {
         this.draw()
         this.animateFrames()
         this.attackBox.position.x = this.position.x + this.attackBox.offset.x
         this.attackBox.position.y = this.position.y + this.attackBox.offset.y
+
         // attckbox show
+        //
         // c.fillRect(
         //     this.attackBox.position.x,
         //     this.attackBox.position.y,
