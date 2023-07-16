@@ -93,7 +93,6 @@ class Fighter extends Sprite {
 
         }
     }
- let fe = []
 
     update() {
         this.draw()
