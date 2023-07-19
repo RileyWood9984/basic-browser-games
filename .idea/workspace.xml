@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="86f361da-eb41-4fc3-be83-ec6ac8acc9a6" name="Default Changelist" comment="attacks">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fighting-game/js/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/fighting-game/js/classes.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +85,8 @@
       <workItem from="1687922701282" duration="1513000" />
       <workItem from="1688548595315" duration="847000" />
       <workItem from="1689133815516" duration="86000" />
+      <workItem from="1689481035844" duration="167000" />
+      <workItem from="1693197143100" duration="619000" />
     </task>
     <task id="LOCAL-00001" summary="look working">
       <option name="closed" value="true" />

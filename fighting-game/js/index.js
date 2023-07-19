@@ -234,6 +234,7 @@ function animate() {
             rectangle2: player
         }) && enemy.isAttacking && timerText >= 0 && displayText.innerHTML === ''
     ) {
+        player.takeHit()
         enemy.isAttacking = false
         player.health -= 10
         document.querySelector("#playerHealth").style.width = player.health + '%'
