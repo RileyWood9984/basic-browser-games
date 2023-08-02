@@ -76,9 +76,9 @@ const player = new Fighter({
             framesMax: 4,
         },
         death: {
-            imageSrc: './img.samuraiMack/Death.png',
+            imageSrc: './assets/samuraiMack/Death.png',
             framesMax: 6
-        }
+        },
 
     },
     attackBox: {
@@ -141,9 +141,9 @@ const enemy = new Fighter({
             framesMax: 3,
         },
         death: {
-            imageSrc: './img.kenji/Death.png',
+            imageSrc: './assets/kenji/Death.png',
             framesMax: 7
-        }
+        },
     },
     attackBox: {
         offset: {
