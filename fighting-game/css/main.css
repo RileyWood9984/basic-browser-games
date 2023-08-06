@@ -42,8 +42,9 @@
 }
 
 #timer {
-    background-color: aqua;
-    height: 100px;
+    color: white;
+    background-color: gray;
+    height: 50px;
     width: 100px;
     flex-shrink: 0;
     display: flex;
