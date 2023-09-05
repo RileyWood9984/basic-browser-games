@@ -28,7 +28,7 @@
 
 #playerHealth {
     position: absolute;
-    background-color: darkgreen;
+    background-color: #715C89;
     top: 0;
     right: 0;
     bottom: 0;
@@ -61,7 +61,7 @@
 
 #enemyHealth {
     position: absolute;
-    background-color: darkgreen;
+    background-color: #715C89;
     top: 0;
     right: 0;
     bottom: 0;
